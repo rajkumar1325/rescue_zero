@@ -1,0 +1,56 @@
+# ----------------------------------------------------------------
+# Flutter/Dart
+# ----------------------------------------------------------------
+**/build/
+**/.dart_tool/
+**/.packages
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/doc/api/
+/coverage/
+
+# ----------------------------------------------------------------
+# Android
+# ----------------------------------------------------------------
+**/android/**/build/
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+*.jks
+*.keystore
+*.properties
+!gradle-wrapper.properties
+local.properties
+
+# ----------------------------------------------------------------
+# iOS
+# ----------------------------------------------------------------
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.generated/
+**/ios/DerivedData/
+*.moved-aside
+*.xcuserstate
+
+# ----------------------------------------------------------------
+# macOS (Crucial for your MacBook Pro)
+# ----------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ----------------------------------------------------------------
+# IDEs (Android Studio / VS Code)
+# ----------------------------------------------------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.history/
